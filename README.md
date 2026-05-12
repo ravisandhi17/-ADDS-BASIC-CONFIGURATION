@@ -3,7 +3,7 @@
 # Active Directory Lab Setup
 
 
-## 📌 Project Overview
+##  Project Overview
 
 
 This project demonstrates a complete basic Active Directory Domain Services (AD DS) lab setup using Windows Server and Windows client machines.
@@ -31,7 +31,7 @@ The lab includes:
 
 
 
-# 🖥️ Lab Environment
+#  Lab Environment
 
 
 | Device | Role | IP Address |
@@ -52,7 +52,7 @@ The lab includes:
 | Domain Name | AD Domain | ravikumar.online |
 
 
-# ⚙️ Step 1 — Install Active Directory Domain Services
+#  Step 1 — Install Active Directory Domain Services
 
 
 ## On ROOTDC
@@ -94,7 +94,7 @@ Set:
 - Restart after installation
 
 
-## 🌐 Step 2 — Configure Static IP Address
+##  Step 2 — Configure Static IP Address
 
 
 ## ROOTDC Configuration
@@ -106,7 +106,7 @@ IP Address : 10.0.0.1
 Subnet Mask: 255.0.0.0
 
 
-# 💻 Step 3 — Join Client PC to Domain
+#  Step 3 — Join Client PC to Domain
 
 
 ## Join Domain
@@ -135,7 +135,7 @@ Provide domain administrator credentials.
 Restart PC after successful join.
 
 
-# 📡 Step 4 — Configure DHCP Server
+#  Step 4 — Configure DHCP Server
 
 
 ## Install DHCP Role
@@ -182,7 +182,7 @@ Authorize DHCP after installation.
 ![IPCONFIG](screenshots/dhcp/RESERVED_IP_TO_PC1.png)
 
 
-# 👥 Step 5 — Create Active Directory Users
+#  Step 5 — Create Active Directory Users
 
 
 Open:
@@ -194,7 +194,7 @@ Server Manager > Tools > Active Directory Users and Computers
 ![IPCONFIG](screenshots/users/USER_CREATED_IN_ROOTDC.png)
 
 
-# 🏢 Step 6 — Create Additional Domain Controller (ADC)
+#  Step 6 — Create Additional Domain Controller (ADC)
 
 
 ## Configure ADC Static IP
@@ -215,7 +215,7 @@ ravikumar.online
 Restart the server.
 
 
-# 🔄 Step 7 — Promote ADC to Domain Controller
+#  Step 7 — Promote ADC to Domain Controller
 
 Install:
 
@@ -271,7 +271,7 @@ Enable:
 Restart after promotion.
 
 
-# ✅ Step 8 — Verify Replication
+#  Step 8 — Verify Replication
 
 
 ## Check Replication Summary
@@ -306,7 +306,7 @@ Expected:
 - ADC
  
 
-# 🛠️ Useful Commands
+#  Useful Commands
 
 
 ## Check IP Configuration
@@ -333,7 +333,7 @@ ping 10.0.0.160
 gpupdate /force
 
 
-# 📚 Features Implemented
+#  Features Implemented
 
 
 - Active Directory Domain Services
@@ -346,7 +346,7 @@ gpupdate /force
 - Centralized Authentication
 
 
-# 📖 Technologies Used
+#  Technologies Used
 
 - Windows Server
 - Active Directory
@@ -355,7 +355,7 @@ gpupdate /force
 - VirtualBox
   
 
-# 👨‍💻 Author
+#  Author
 
 Ravi Kumar
 
